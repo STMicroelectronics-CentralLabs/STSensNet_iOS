@@ -1,8 +1,8 @@
-# ST SenseNet
+# ST BLE StarNet
 
-This repository contains the ST SensNet app source code.
+This repository contains the ST BLE StarNet app source code.
 
-The ST SensNet App is a companion tool to be used in conjunction with the ST’s [FP-NET-BLESTAR1](http://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32-ode-function-pack-sw/fp-net-blestar1.html) function pack. It is designed to connect to a Bluetooth® Low Energy (BLE) device, acting as Central Node of a star-topology BLE network, to show data coming from and to send commands to all BLE Peripheral Nodes belonging to the BLE star network.
+The ST BLE StarNet App is a companion tool to be used in conjunction with the ST’s [FP-NET-BLESTAR1](http://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32-ode-function-pack-sw/fp-net-blestar1.html) function pack. It is designed to connect to a Bluetooth® Low Energy (BLE) device, acting as Central Node of a star-topology BLE network, to show data coming from and to send commands to all BLE Peripheral Nodes belonging to the BLE star network.
 The [FP-NET-BLESTAR1](http://www.st.com/content/st_com/en/products/embedded-software/mcus-embedded-software/stm32-embedded-software/stm32-ode-function-pack-sw/fp-net-blestar1.html) function pack is an [STM32 ODE](http://st.com/stm32ode) Function Pack including drivers and application examples running on the STM32 microcontroller for leveraging the functionalities provided by the X-NUCLEO-IDB05A1, a BLE STM32 Nucleo expansion board, and the X-NUCLEO-IDW01M1, a Wi-Fi STM32 Nucleo expansion board.
 Simply launch the ST SensNet App, scan the network and establish a Bluetooth connection with your STM32 Nucleo, appearing with name BLESTAR1, from the discovered devices list.
 After connecting, the screen will populate with all data coming from the BLE devices belonging to the BLE star network.

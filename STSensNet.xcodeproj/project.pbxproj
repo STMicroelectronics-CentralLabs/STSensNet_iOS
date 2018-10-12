@@ -7,30 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6611A13B1CAA57C500476E8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611A13A1CAA57C500476E8B /* main.m */; };
-		6611A13E1CAA57C500476E8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611A13D1CAA57C500476E8B /* AppDelegate.m */; };
-		6611A1411CAA57C500476E8B /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611A1401CAA57C500476E8B /* MainViewController.m */; };
+		0F627CB6656844A04E2ABA62 /* Pods_STSensNetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3E5B253C1802FDE27A2CF0C /* Pods_STSensNetTests.framework */; };
+		2C16AF2FD0A024C826522AE5 /* Pods_STSensNetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D093D76E683D60054944CF0 /* Pods_STSensNetUITests.framework */; };
+		66065E0820C56D8100EC092C /* LPBleNetworkLedContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66065E0720C56D8100EC092C /* LPBleNetworkLedContract.swift */; };
+		66065E0A20C56E8E00EC092C /* LPBleNetworkLedPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66065E0920C56E8E00EC092C /* LPBleNetworkLedPresenter.swift */; };
+		660FF34E2099FB7900D16379 /* STSensNetAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660FF34D2099FB7900D16379 /* STSensNetAppDelegate.swift */; };
+		6611A13B1CAA57C500476E8B /* (null) in Sources */ = {isa = PBXBuildFile; };
 		6611A1441CAA57C500476E8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6611A1421CAA57C500476E8B /* Main.storyboard */; };
-		6611A1461CAA57C500476E8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6611A1451CAA57C500476E8B /* Assets.xcassets */; };
 		6611A1541CAA57C500476E8B /* STSensNetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611A1531CAA57C500476E8B /* STSensNetTests.m */; };
 		6611A15F1CAA57C500476E8B /* STSensNetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6611A15E1CAA57C500476E8B /* STSensNetUITests.m */; };
 		6611A1811CAA61BC00476E8B /* press_contact.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6611A17F1CAA61BC00476E8B /* press_contact.jpg */; };
 		6611A1821CAA61BC00476E8B /* text.html in Resources */ = {isa = PBXBuildFile; fileRef = 6611A1801CAA61BC00476E8B /* text.html */; };
-		6611A19E1CAA7C6900476E8B /* BlueSTSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6611A19B1CAA7C6000476E8B /* BlueSTSDK.framework */; };
-		6611A19F1CAA7C6900476E8B /* BlueSTSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6611A19B1CAA7C6000476E8B /* BlueSTSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		6632202D1DD0D4C40085EF59 /* STSensNetCommandFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 6632202C1DD0D4C40085EF59 /* STSensNetCommandFeature.m */; };
-		663B9B241DA3D97F0067DAFC /* DemoView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 663B9B231DA3D97F0067DAFC /* DemoView.storyboard */; };
-		663B9B2D1DA3DBCE0067DAFC /* EnviromentalRemoteNodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 663B9B2C1DA3DBCE0067DAFC /* EnviromentalRemoteNodeCell.m */; };
-		663B9B311DA3DBD90067DAFC /* EnviromentalRemoteNodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 663B9B301DA3DBD90067DAFC /* EnviromentalRemoteNodeData.m */; };
-		663B9B341DA3DC410067DAFC /* RemoteNodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 663B9B331DA3DC410067DAFC /* RemoteNodeData.m */; };
-		663B9B371DA3DD270067DAFC /* GenericRemoteNodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 663B9B361DA3DD270067DAFC /* GenericRemoteNodeData.m */; };
-		663B9B401DA3EA6B0067DAFC /* GenericRemoteNodeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 663B9B3F1DA3EA6B0067DAFC /* GenericRemoteNodeTableViewController.m */; };
-		663B9B441DA3EE690067DAFC /* STSensNetGenericRemoteFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 663B9B431DA3EE690067DAFC /* STSensNetGenericRemoteFeature.m */; };
-		664E09771E49FE0E00C6EA07 /* BlueSTSDK_Gui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664E09761E49FDFC00C6EA07 /* BlueSTSDK_Gui.framework */; };
-		664E09781E49FE0E00C6EA07 /* BlueSTSDK_Gui.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 664E09761E49FDFC00C6EA07 /* BlueSTSDK_Gui.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		665E59C61DDAEA9600FAD172 /* GenericRemoteNodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 665E59C51DDAEA9600FAD172 /* GenericRemoteNodeCell.m */; };
-		66FD405A1E9CDD3400711F26 /* st_images_LanchScreen.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FD40591E9CDD3400711F26 /* st_images_LanchScreen.xcassets */; };
-		66FD405C1E9CDEE100711F26 /* st_images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66FD405B1E9CDEE100711F26 /* st_images.xcassets */; };
+		6616815C20B56D9500783EAD /* LPBleNetworkStatusContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6616815920B56D9400783EAD /* LPBleNetworkStatusContract.swift */; };
+		6616815D20B56D9500783EAD /* LPBleNetworkStatusPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6616815A20B56D9400783EAD /* LPBleNetworkStatusPresenter.swift */; };
+		6616815E20B56D9500783EAD /* LPBleNetworkStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6616815B20B56D9400783EAD /* LPBleNetworkStatusViewController.swift */; };
+		661D84B220BD950A00B4C4ED /* GetNodeListResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 661D84B120BD950A00B4C4ED /* GetNodeListResponseParser.swift */; };
+		6625F785207F192900ED080D /* EnviromentalRemoteNodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6625F772207F192900ED080D /* EnviromentalRemoteNodeCell.m */; };
+		6625F786207F192900ED080D /* GenericRemoteNodeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6625F773207F192900ED080D /* GenericRemoteNodeCell.m */; };
+		6625F787207F192900ED080D /* GenericRemoteNodeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6625F776207F192900ED080D /* GenericRemoteNodeTableViewController.m */; };
+		6625F788207F192900ED080D /* BleStarStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6625F777207F192900ED080D /* BleStarStoryboard.storyboard */; };
+		6625F789207F192900ED080D /* STSensNetCommandFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 6625F779207F192900ED080D /* STSensNetCommandFeature.m */; };
+		6625F78A207F192900ED080D /* STSensNetGenericRemoteFeature.m in Sources */ = {isa = PBXBuildFile; fileRef = 6625F77A207F192900ED080D /* STSensNetGenericRemoteFeature.m */; };
+		6625F78B207F192900ED080D /* EnviromentalRemoteNodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6625F77F207F192900ED080D /* EnviromentalRemoteNodeData.m */; };
+		6625F78C207F192900ED080D /* GenericRemoteNodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6625F780207F192900ED080D /* GenericRemoteNodeData.m */; };
+		6625F78D207F192900ED080D /* RemoteNodeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 6625F781207F192900ED080D /* RemoteNodeData.m */; };
+		6625F799207F1BF400ED080D /* 6LPBleStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6625F798207F1BF400ED080D /* 6LPBleStoryboard.storyboard */; };
+		663A664820A196BA00785131 /* BlueSTSDK.txt in Resources */ = {isa = PBXBuildFile; fileRef = 663A664420A196BA00785131 /* BlueSTSDK.txt */; };
+		663A664920A196BA00785131 /* BlueSTSDK_Gui.txt in Resources */ = {isa = PBXBuildFile; fileRef = 663A664520A196BA00785131 /* BlueSTSDK_Gui.txt */; };
+		663A664A20A196BA00785131 /* MBProgressHUD.txt in Resources */ = {isa = PBXBuildFile; fileRef = 663A664620A196BA00785131 /* MBProgressHUD.txt */; };
+		665026C1209B4E520065BCB9 /* st_images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 665026C0209B4E520065BCB9 /* st_images.xcassets */; };
+		6652CB9F2080819C00CEA296 /* Feature6LoWPANProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6652CB9B2080819C00CEA296 /* Feature6LoWPANProtocol.swift */; };
+		6652CBA02080819C00CEA296 /* LPBleNetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6652CB9C2080819C00CEA296 /* LPBleNetworkRequest.swift */; };
+		6652CBA12080819C00CEA296 /* LPBleNetworkResponde.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6652CB9D2080819C00CEA296 /* LPBleNetworkResponde.swift */; };
+		6652CBA22080819C00CEA296 /* LPBleNetworkAddress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6652CB9E2080819C00CEA296 /* LPBleNetworkAddress.swift */; };
+		6652CBAF208089C500CEA296 /* LPBleSensorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6652CBAE208089C500CEA296 /* LPBleSensorNode.swift */; };
+		6652CBB120808C3200CEA296 /* GetNodeSensorResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6652CBB020808C3200CEA296 /* GetNodeSensorResponseParser.swift */; };
+		665AC7BA20B806FE00943F96 /* LPBleNetworkTopologyContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665AC7B720B806FE00943F96 /* LPBleNetworkTopologyContract.swift */; };
+		665AC7BB20B806FE00943F96 /* LPBleNetworkTopologyPresenterImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665AC7B820B806FE00943F96 /* LPBleNetworkTopologyPresenterImpl.swift */; };
+		665AC7BC20B806FE00943F96 /* LPBleNetworkTopologyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665AC7B920B806FE00943F96 /* LPBleNetworkTopologyViewController.swift */; };
+		665AC7BE20B8081B00943F96 /* LPBleNetworkTopologyDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665AC7BD20B8081B00943F96 /* LPBleNetworkTopologyDetailsViewController.swift */; };
+		665E457A2136BFC10042250E /* STSensNet-Debug-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 665E45782136BFC10042250E /* STSensNet-Debug-Info.plist */; };
+		665E457B2136BFC10042250E /* STSensNet-Release-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 665E45792136BFC10042250E /* STSensNet-Release-Info.plist */; };
+		668D4D652073C8E2003632F8 /* BlueSTSDK_Gui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 664E09761E49FDFC00C6EA07 /* BlueSTSDK_Gui.framework */; };
+		668D4D662073C8E2003632F8 /* BlueSTSDK_Gui.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 664E09761E49FDFC00C6EA07 /* BlueSTSDK_Gui.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		668D4D6A2073C8EB003632F8 /* BlueSTSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6611A19B1CAA7C6000476E8B /* BlueSTSDK.framework */; };
+		668D4D6B2073C8EB003632F8 /* BlueSTSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 6611A19B1CAA7C6000476E8B /* BlueSTSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		668D4D6F2073C9E4003632F8 /* st_images_LanchScreen.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 668D4D6E2073C9E3003632F8 /* st_images_LanchScreen.xcassets */; };
+		669355BA20B6C52400D0A5BE /* LPBleNodeStatusContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669355B720B6C52400D0A5BE /* LPBleNodeStatusContract.swift */; };
+		669355BB20B6C52400D0A5BE /* LPBleNodeStatusPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669355B820B6C52400D0A5BE /* LPBleNodeStatusPresenter.swift */; };
+		669355BC20B6C52400D0A5BE /* LPBleNodeStatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 669355B920B6C52400D0A5BE /* LPBleNodeStatusViewController.swift */; };
+		66D7B71A2080E8E400000EF5 /* NetworkTopology.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D7B7192080E8E400000EF5 /* NetworkTopology.swift */; };
+		66D7B71D208109FE00000EF5 /* GetNetworkTopologyResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66D7B71C208109FE00000EF5 /* GetNetworkTopologyResponseParser.swift */; };
+		66E28AF020822C92001AB55A /* ChangeActuatorStateResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E28AEF20822C92001AB55A /* ChangeActuatorStateResponseParser.swift */; };
+		66E28AFE20823616001AB55A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E28AFD20823616001AB55A /* MainViewController.swift */; };
+		66EF98E8210F3B4B00584218 /* SixLoWPANBLEGatewayConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66EF98E7210F3B4B00584218 /* SixLoWPANBLEGatewayConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,24 +106,38 @@
 			remoteGlobalIDString = 663979141E2E5D0000FBF696;
 			remoteInfo = BlueSTSDK_Gui;
 		};
-		664E09791E49FE0E00C6EA07 /* PBXContainerItemProxy */ = {
+		668D4D632073C8D0003632F8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 664E096F1E49FDFC00C6EA07 /* BlueSTSDK_Gui.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 663979131E2E5D0000FBF696;
 			remoteInfo = BlueSTSDK_Gui;
 		};
+		668D4D672073C8E2003632F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 664E096F1E49FDFC00C6EA07 /* BlueSTSDK_Gui.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 663979131E2E5D0000FBF696;
+			remoteInfo = BlueSTSDK_Gui;
+		};
+		668D4D6C2073C8EB003632F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6611A1951CAA7C6000476E8B /* BlueSTSDK.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 665241EF1B0B1BB100931F93;
+			remoteInfo = BlueSTSDK;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		6611A1A21CAA7C6900476E8B /* Embed Frameworks */ = {
+		668D4D692073C8E2003632F8 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				664E09781E49FE0E00C6EA07 /* BlueSTSDK_Gui.framework in Embed Frameworks */,
-				6611A19F1CAA7C6900476E8B /* BlueSTSDK.framework in Embed Frameworks */,
+				668D4D6B2073C8EB003632F8 /* BlueSTSDK.framework in Embed Frameworks */,
+				668D4D662073C8E2003632F8 /* BlueSTSDK_Gui.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -101,15 +145,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4D093D76E683D60054944CF0 /* Pods_STSensNetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STSensNetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66065E0720C56D8100EC092C /* LPBleNetworkLedContract.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPBleNetworkLedContract.swift; sourceTree = "<group>"; };
+		66065E0920C56E8E00EC092C /* LPBleNetworkLedPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPBleNetworkLedPresenter.swift; sourceTree = "<group>"; };
+		660FF34D2099FB7900D16379 /* STSensNetAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STSensNetAppDelegate.swift; sourceTree = "<group>"; };
 		6611A1361CAA57C500476E8B /* STSensNet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STSensNet.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6611A13A1CAA57C500476E8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6611A13C1CAA57C500476E8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		6611A13D1CAA57C500476E8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		6611A13F1CAA57C500476E8B /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		6611A1401CAA57C500476E8B /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		6611A1431CAA57C500476E8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6611A1451CAA57C500476E8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6611A14A1CAA57C500476E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6611A14F1CAA57C500476E8B /* STSensNetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STSensNetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6611A1531CAA57C500476E8B /* STSensNetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STSensNetTests.m; sourceTree = "<group>"; };
 		6611A1551CAA57C500476E8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,26 +160,57 @@
 		6611A17F1CAA61BC00476E8B /* press_contact.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = press_contact.jpg; path = Resources/AboutPage/press_contact.jpg; sourceTree = "<group>"; };
 		6611A1801CAA61BC00476E8B /* text.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = text.html; path = Resources/AboutPage/text.html; sourceTree = "<group>"; };
 		6611A1951CAA7C6000476E8B /* BlueSTSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BlueSTSDK.xcodeproj; path = BlueSTSDK/BlueSTSDK/BlueSTSDK.xcodeproj; sourceTree = "<group>"; };
-		6632202B1DD0D4C40085EF59 /* STSensNetCommandFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSensNetCommandFeature.h; sourceTree = "<group>"; };
-		6632202C1DD0D4C40085EF59 /* STSensNetCommandFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSensNetCommandFeature.m; sourceTree = "<group>"; };
-		663B9B231DA3D97F0067DAFC /* DemoView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = DemoView.storyboard; sourceTree = "<group>"; };
-		663B9B2B1DA3DBCE0067DAFC /* EnviromentalRemoteNodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnviromentalRemoteNodeCell.h; sourceTree = "<group>"; };
-		663B9B2C1DA3DBCE0067DAFC /* EnviromentalRemoteNodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnviromentalRemoteNodeCell.m; sourceTree = "<group>"; };
-		663B9B2F1DA3DBD90067DAFC /* EnviromentalRemoteNodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnviromentalRemoteNodeData.h; sourceTree = "<group>"; };
-		663B9B301DA3DBD90067DAFC /* EnviromentalRemoteNodeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnviromentalRemoteNodeData.m; sourceTree = "<group>"; };
-		663B9B321DA3DC410067DAFC /* RemoteNodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteNodeData.h; sourceTree = "<group>"; };
-		663B9B331DA3DC410067DAFC /* RemoteNodeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteNodeData.m; sourceTree = "<group>"; };
-		663B9B351DA3DD270067DAFC /* GenericRemoteNodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericRemoteNodeData.h; sourceTree = "<group>"; };
-		663B9B361DA3DD270067DAFC /* GenericRemoteNodeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericRemoteNodeData.m; sourceTree = "<group>"; };
-		663B9B3E1DA3EA6B0067DAFC /* GenericRemoteNodeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GenericRemoteNodeTableViewController.h; path = Demo/GenericRemoteNodeTableViewController.h; sourceTree = "<group>"; };
-		663B9B3F1DA3EA6B0067DAFC /* GenericRemoteNodeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GenericRemoteNodeTableViewController.m; path = Demo/GenericRemoteNodeTableViewController.m; sourceTree = "<group>"; };
-		663B9B421DA3EE690067DAFC /* STSensNetGenericRemoteFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSensNetGenericRemoteFeature.h; sourceTree = "<group>"; };
-		663B9B431DA3EE690067DAFC /* STSensNetGenericRemoteFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSensNetGenericRemoteFeature.m; sourceTree = "<group>"; };
+		6616815920B56D9400783EAD /* LPBleNetworkStatusContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBleNetworkStatusContract.swift; sourceTree = "<group>"; };
+		6616815A20B56D9400783EAD /* LPBleNetworkStatusPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBleNetworkStatusPresenter.swift; sourceTree = "<group>"; };
+		6616815B20B56D9400783EAD /* LPBleNetworkStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBleNetworkStatusViewController.swift; sourceTree = "<group>"; };
+		661D84B120BD950A00B4C4ED /* GetNodeListResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNodeListResponseParser.swift; sourceTree = "<group>"; };
+		6625F772207F192900ED080D /* EnviromentalRemoteNodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnviromentalRemoteNodeCell.m; sourceTree = "<group>"; };
+		6625F773207F192900ED080D /* GenericRemoteNodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericRemoteNodeCell.m; sourceTree = "<group>"; };
+		6625F774207F192900ED080D /* EnviromentalRemoteNodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnviromentalRemoteNodeCell.h; sourceTree = "<group>"; };
+		6625F775207F192900ED080D /* GenericRemoteNodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericRemoteNodeCell.h; sourceTree = "<group>"; };
+		6625F776207F192900ED080D /* GenericRemoteNodeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericRemoteNodeTableViewController.m; sourceTree = "<group>"; };
+		6625F777207F192900ED080D /* BleStarStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = BleStarStoryboard.storyboard; sourceTree = "<group>"; };
+		6625F779207F192900ED080D /* STSensNetCommandFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSensNetCommandFeature.m; sourceTree = "<group>"; };
+		6625F77A207F192900ED080D /* STSensNetGenericRemoteFeature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSensNetGenericRemoteFeature.m; sourceTree = "<group>"; };
+		6625F77B207F192900ED080D /* STSensNetCommandFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSensNetCommandFeature.h; sourceTree = "<group>"; };
+		6625F77C207F192900ED080D /* STSensNetGenericRemoteFeature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSensNetGenericRemoteFeature.h; sourceTree = "<group>"; };
+		6625F77D207F192900ED080D /* GenericRemoteNodeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericRemoteNodeTableViewController.h; sourceTree = "<group>"; };
+		6625F77F207F192900ED080D /* EnviromentalRemoteNodeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnviromentalRemoteNodeData.m; sourceTree = "<group>"; };
+		6625F780207F192900ED080D /* GenericRemoteNodeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericRemoteNodeData.m; sourceTree = "<group>"; };
+		6625F781207F192900ED080D /* RemoteNodeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemoteNodeData.m; sourceTree = "<group>"; };
+		6625F782207F192900ED080D /* EnviromentalRemoteNodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnviromentalRemoteNodeData.h; sourceTree = "<group>"; };
+		6625F783207F192900ED080D /* RemoteNodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemoteNodeData.h; sourceTree = "<group>"; };
+		6625F784207F192900ED080D /* GenericRemoteNodeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericRemoteNodeData.h; sourceTree = "<group>"; };
+		6625F798207F1BF400ED080D /* 6LPBleStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = 6LPBleStoryboard.storyboard; sourceTree = "<group>"; };
+		6625F79D207F1C7700ED080D /* STSensNet-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "STSensNet-Bridging-Header.h"; sourceTree = "<group>"; };
+		663A664420A196BA00785131 /* BlueSTSDK.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BlueSTSDK.txt; sourceTree = "<group>"; };
+		663A664520A196BA00785131 /* BlueSTSDK_Gui.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BlueSTSDK_Gui.txt; sourceTree = "<group>"; };
+		663A664620A196BA00785131 /* MBProgressHUD.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = MBProgressHUD.txt; sourceTree = "<group>"; };
 		664E096F1E49FDFC00C6EA07 /* BlueSTSDK_Gui.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = BlueSTSDK_Gui.xcodeproj; path = BlueSTSDK_Gui/BlueSTSDK_Gui.xcodeproj; sourceTree = "<group>"; };
-		665E59C41DDAEA9600FAD172 /* GenericRemoteNodeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenericRemoteNodeCell.h; sourceTree = "<group>"; };
-		665E59C51DDAEA9600FAD172 /* GenericRemoteNodeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenericRemoteNodeCell.m; sourceTree = "<group>"; };
-		66FD40591E9CDD3400711F26 /* st_images_LanchScreen.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = st_images_LanchScreen.xcassets; path = BlueSTSDK_Gui/BlueSTSDK_Gui/st_images_LanchScreen.xcassets; sourceTree = "<group>"; };
-		66FD405B1E9CDEE100711F26 /* st_images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = st_images.xcassets; sourceTree = "<group>"; };
+		665026C0209B4E520065BCB9 /* st_images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = st_images.xcassets; sourceTree = "<group>"; };
+		6652CB9B2080819C00CEA296 /* Feature6LoWPANProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feature6LoWPANProtocol.swift; sourceTree = "<group>"; };
+		6652CB9C2080819C00CEA296 /* LPBleNetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBleNetworkRequest.swift; sourceTree = "<group>"; };
+		6652CB9D2080819C00CEA296 /* LPBleNetworkResponde.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBleNetworkResponde.swift; sourceTree = "<group>"; };
+		6652CB9E2080819C00CEA296 /* LPBleNetworkAddress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBleNetworkAddress.swift; sourceTree = "<group>"; };
+		6652CBAE208089C500CEA296 /* LPBleSensorNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPBleSensorNode.swift; sourceTree = "<group>"; };
+		6652CBB020808C3200CEA296 /* GetNodeSensorResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNodeSensorResponseParser.swift; sourceTree = "<group>"; };
+		665AC7B720B806FE00943F96 /* LPBleNetworkTopologyContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBleNetworkTopologyContract.swift; sourceTree = "<group>"; };
+		665AC7B820B806FE00943F96 /* LPBleNetworkTopologyPresenterImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBleNetworkTopologyPresenterImpl.swift; sourceTree = "<group>"; };
+		665AC7B920B806FE00943F96 /* LPBleNetworkTopologyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBleNetworkTopologyViewController.swift; sourceTree = "<group>"; };
+		665AC7BD20B8081B00943F96 /* LPBleNetworkTopologyDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LPBleNetworkTopologyDetailsViewController.swift; sourceTree = "<group>"; };
+		665E45782136BFC10042250E /* STSensNet-Debug-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "STSensNet-Debug-Info.plist"; sourceTree = "<group>"; };
+		665E45792136BFC10042250E /* STSensNet-Release-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "STSensNet-Release-Info.plist"; sourceTree = "<group>"; };
+		668D4D6E2073C9E3003632F8 /* st_images_LanchScreen.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = st_images_LanchScreen.xcassets; sourceTree = "<group>"; };
+		669355B720B6C52400D0A5BE /* LPBleNodeStatusContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBleNodeStatusContract.swift; sourceTree = "<group>"; };
+		669355B820B6C52400D0A5BE /* LPBleNodeStatusPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBleNodeStatusPresenter.swift; sourceTree = "<group>"; };
+		669355B920B6C52400D0A5BE /* LPBleNodeStatusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPBleNodeStatusViewController.swift; sourceTree = "<group>"; };
+		66D7B7192080E8E400000EF5 /* NetworkTopology.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTopology.swift; sourceTree = "<group>"; };
+		66D7B71C208109FE00000EF5 /* GetNetworkTopologyResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNetworkTopologyResponseParser.swift; sourceTree = "<group>"; };
+		66E28AEF20822C92001AB55A /* ChangeActuatorStateResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeActuatorStateResponseParser.swift; sourceTree = "<group>"; };
+		66E28AFD20823616001AB55A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		66EF98E7210F3B4B00584218 /* SixLoWPANBLEGatewayConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixLoWPANBLEGatewayConfiguration.swift; sourceTree = "<group>"; };
+		E23207E7FE23FB179CDB33E8 /* Pods_STSensNet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STSensNet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3E5B253C1802FDE27A2CF0C /* Pods_STSensNetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_STSensNetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,8 +218,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				664E09771E49FE0E00C6EA07 /* BlueSTSDK_Gui.framework in Frameworks */,
-				6611A19E1CAA7C6900476E8B /* BlueSTSDK.framework in Frameworks */,
+				668D4D6A2073C8EB003632F8 /* BlueSTSDK.framework in Frameworks */,
+				668D4D652073C8E2003632F8 /* BlueSTSDK_Gui.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +227,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F627CB6656844A04E2ABA62 /* Pods_STSensNetTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,22 +235,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C16AF2FD0A024C826522AE5 /* Pods_STSensNetUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		644DFF77AEA16F28689D69FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E23207E7FE23FB179CDB33E8 /* Pods_STSensNet.framework */,
+				E3E5B253C1802FDE27A2CF0C /* Pods_STSensNetTests.framework */,
+				4D093D76E683D60054944CF0 /* Pods_STSensNetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		6611A12D1CAA57C500476E8B = {
 			isa = PBXGroup;
 			children = (
-				66FD40591E9CDD3400711F26 /* st_images_LanchScreen.xcassets */,
+				663A664320A196BA00785131 /* ThirdPartyLibLicenses */,
+				668D4D6E2073C9E3003632F8 /* st_images_LanchScreen.xcassets */,
 				664E096F1E49FDFC00C6EA07 /* BlueSTSDK_Gui.xcodeproj */,
 				6611A1951CAA7C6000476E8B /* BlueSTSDK.xcodeproj */,
 				6611A1381CAA57C500476E8B /* STSensNet */,
 				6611A1521CAA57C500476E8B /* STSensNetTests */,
 				6611A15D1CAA57C500476E8B /* STSensNetUITests */,
 				6611A1371CAA57C500476E8B /* Products */,
+				644DFF77AEA16F28689D69FF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -194,27 +280,18 @@
 		6611A1381CAA57C500476E8B /* STSensNet */ = {
 			isa = PBXGroup;
 			children = (
-				6611A1A91CAAAD1200476E8B /* Demo */,
+				6625F797207F1BD600ED080D /* 6LPBle */,
+				6625F770207F192900ED080D /* BleStar */,
 				6611A1421CAA57C500476E8B /* Main.storyboard */,
-				6611A1451CAA57C500476E8B /* Assets.xcassets */,
-				6611A13C1CAA57C500476E8B /* AppDelegate.h */,
-				6611A13D1CAA57C500476E8B /* AppDelegate.m */,
-				6611A13F1CAA57C500476E8B /* MainViewController.h */,
-				6611A1401CAA57C500476E8B /* MainViewController.m */,
-				6611A14A1CAA57C500476E8B /* Info.plist */,
+				6625F79D207F1C7700ED080D /* STSensNet-Bridging-Header.h */,
+				660FF34D2099FB7900D16379 /* STSensNetAppDelegate.swift */,
+				66E28AFD20823616001AB55A /* MainViewController.swift */,
+				665E45782136BFC10042250E /* STSensNet-Debug-Info.plist */,
+				665E45792136BFC10042250E /* STSensNet-Release-Info.plist */,
 				6611A1831CAA61C000476E8B /* Resources */,
-				6611A1391CAA57C500476E8B /* Supporting Files */,
-				66FD405B1E9CDEE100711F26 /* st_images.xcassets */,
+				665026C0209B4E520065BCB9 /* st_images.xcassets */,
 			);
 			path = STSensNet;
-			sourceTree = "<group>";
-		};
-		6611A1391CAA57C500476E8B /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6611A13A1CAA57C500476E8B /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6611A1521CAA57C500476E8B /* STSensNetTests */ = {
@@ -261,55 +338,86 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6611A1A91CAAAD1200476E8B /* Demo */ = {
+		6616815820B56D9400783EAD /* networkStatus */ = {
 			isa = PBXGroup;
 			children = (
-				663B9B231DA3D97F0067DAFC /* DemoView.storyboard */,
-				663B9B411DA3EE690067DAFC /* Feature */,
-				663B9B2E1DA3DBD90067DAFC /* Data */,
-				663B9B2A1DA3DBCE0067DAFC /* TableCell */,
-				663B9B3E1DA3EA6B0067DAFC /* GenericRemoteNodeTableViewController.h */,
-				663B9B3F1DA3EA6B0067DAFC /* GenericRemoteNodeTableViewController.m */,
+				6616815920B56D9400783EAD /* LPBleNetworkStatusContract.swift */,
+				6616815A20B56D9400783EAD /* LPBleNetworkStatusPresenter.swift */,
+				6616815B20B56D9400783EAD /* LPBleNetworkStatusViewController.swift */,
+				66065E0720C56D8100EC092C /* LPBleNetworkLedContract.swift */,
+				66065E0920C56E8E00EC092C /* LPBleNetworkLedPresenter.swift */,
 			);
-			name = Demo;
+			path = networkStatus;
 			sourceTree = "<group>";
 		};
-		663B9B2A1DA3DBCE0067DAFC /* TableCell */ = {
+		6625F770207F192900ED080D /* BleStar */ = {
 			isa = PBXGroup;
 			children = (
-				663B9B2B1DA3DBCE0067DAFC /* EnviromentalRemoteNodeCell.h */,
-				663B9B2C1DA3DBCE0067DAFC /* EnviromentalRemoteNodeCell.m */,
-				665E59C41DDAEA9600FAD172 /* GenericRemoteNodeCell.h */,
-				665E59C51DDAEA9600FAD172 /* GenericRemoteNodeCell.m */,
+				6625F77E207F192900ED080D /* Data */,
+				6625F771207F192900ED080D /* TableCell */,
+				6625F778207F192900ED080D /* Feature */,
+				6625F77D207F192900ED080D /* GenericRemoteNodeTableViewController.h */,
+				6625F777207F192900ED080D /* BleStarStoryboard.storyboard */,
+				6625F776207F192900ED080D /* GenericRemoteNodeTableViewController.m */,
 			);
-			name = TableCell;
-			path = Demo/TableCell;
+			path = BleStar;
 			sourceTree = "<group>";
 		};
-		663B9B2E1DA3DBD90067DAFC /* Data */ = {
+		6625F771207F192900ED080D /* TableCell */ = {
 			isa = PBXGroup;
 			children = (
-				663B9B321DA3DC410067DAFC /* RemoteNodeData.h */,
-				663B9B331DA3DC410067DAFC /* RemoteNodeData.m */,
-				663B9B2F1DA3DBD90067DAFC /* EnviromentalRemoteNodeData.h */,
-				663B9B301DA3DBD90067DAFC /* EnviromentalRemoteNodeData.m */,
-				663B9B351DA3DD270067DAFC /* GenericRemoteNodeData.h */,
-				663B9B361DA3DD270067DAFC /* GenericRemoteNodeData.m */,
+				6625F772207F192900ED080D /* EnviromentalRemoteNodeCell.m */,
+				6625F773207F192900ED080D /* GenericRemoteNodeCell.m */,
+				6625F774207F192900ED080D /* EnviromentalRemoteNodeCell.h */,
+				6625F775207F192900ED080D /* GenericRemoteNodeCell.h */,
 			);
-			name = Data;
-			path = Demo/Data;
+			path = TableCell;
 			sourceTree = "<group>";
 		};
-		663B9B411DA3EE690067DAFC /* Feature */ = {
+		6625F778207F192900ED080D /* Feature */ = {
 			isa = PBXGroup;
 			children = (
-				663B9B421DA3EE690067DAFC /* STSensNetGenericRemoteFeature.h */,
-				663B9B431DA3EE690067DAFC /* STSensNetGenericRemoteFeature.m */,
-				6632202B1DD0D4C40085EF59 /* STSensNetCommandFeature.h */,
-				6632202C1DD0D4C40085EF59 /* STSensNetCommandFeature.m */,
+				6625F77B207F192900ED080D /* STSensNetCommandFeature.h */,
+				6625F779207F192900ED080D /* STSensNetCommandFeature.m */,
+				6625F77A207F192900ED080D /* STSensNetGenericRemoteFeature.m */,
+				6625F77C207F192900ED080D /* STSensNetGenericRemoteFeature.h */,
 			);
-			name = Feature;
-			path = Demo/Feature;
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		6625F77E207F192900ED080D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6625F77F207F192900ED080D /* EnviromentalRemoteNodeData.m */,
+				6625F780207F192900ED080D /* GenericRemoteNodeData.m */,
+				6625F781207F192900ED080D /* RemoteNodeData.m */,
+				6625F782207F192900ED080D /* EnviromentalRemoteNodeData.h */,
+				6625F783207F192900ED080D /* RemoteNodeData.h */,
+				6625F784207F192900ED080D /* GenericRemoteNodeData.h */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6625F797207F1BD600ED080D /* 6LPBle */ = {
+			isa = PBXGroup;
+			children = (
+				665AC7B620B806FE00943F96 /* networkTopology */,
+				669355B620B6C52400D0A5BE /* nodeStatus */,
+				6616815820B56D9400783EAD /* networkStatus */,
+				6652CB9A2080819C00CEA296 /* feature */,
+				6625F798207F1BF400ED080D /* 6LPBleStoryboard.storyboard */,
+			);
+			path = 6LPBle;
+			sourceTree = "<group>";
+		};
+		663A664320A196BA00785131 /* ThirdPartyLibLicenses */ = {
+			isa = PBXGroup;
+			children = (
+				663A664420A196BA00785131 /* BlueSTSDK.txt */,
+				663A664520A196BA00785131 /* BlueSTSDK_Gui.txt */,
+				663A664620A196BA00785131 /* MBProgressHUD.txt */,
+			);
+			path = ThirdPartyLibLicenses;
 			sourceTree = "<group>";
 		};
 		664E09701E49FDFC00C6EA07 /* Products */ = {
@@ -318,6 +426,45 @@
 				664E09761E49FDFC00C6EA07 /* BlueSTSDK_Gui.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		6652CB9A2080819C00CEA296 /* feature */ = {
+			isa = PBXGroup;
+			children = (
+				6652CB9B2080819C00CEA296 /* Feature6LoWPANProtocol.swift */,
+				6652CB9C2080819C00CEA296 /* LPBleNetworkRequest.swift */,
+				6652CB9D2080819C00CEA296 /* LPBleNetworkResponde.swift */,
+				6652CB9E2080819C00CEA296 /* LPBleNetworkAddress.swift */,
+				6652CBB020808C3200CEA296 /* GetNodeSensorResponseParser.swift */,
+				66D7B71C208109FE00000EF5 /* GetNetworkTopologyResponseParser.swift */,
+				66D7B7192080E8E400000EF5 /* NetworkTopology.swift */,
+				6652CBAE208089C500CEA296 /* LPBleSensorNode.swift */,
+				66E28AEF20822C92001AB55A /* ChangeActuatorStateResponseParser.swift */,
+				661D84B120BD950A00B4C4ED /* GetNodeListResponseParser.swift */,
+				66EF98E7210F3B4B00584218 /* SixLoWPANBLEGatewayConfiguration.swift */,
+			);
+			path = feature;
+			sourceTree = "<group>";
+		};
+		665AC7B620B806FE00943F96 /* networkTopology */ = {
+			isa = PBXGroup;
+			children = (
+				665AC7B720B806FE00943F96 /* LPBleNetworkTopologyContract.swift */,
+				665AC7B820B806FE00943F96 /* LPBleNetworkTopologyPresenterImpl.swift */,
+				665AC7B920B806FE00943F96 /* LPBleNetworkTopologyViewController.swift */,
+				665AC7BD20B8081B00943F96 /* LPBleNetworkTopologyDetailsViewController.swift */,
+			);
+			path = networkTopology;
+			sourceTree = "<group>";
+		};
+		669355B620B6C52400D0A5BE /* nodeStatus */ = {
+			isa = PBXGroup;
+			children = (
+				669355B720B6C52400D0A5BE /* LPBleNodeStatusContract.swift */,
+				669355B820B6C52400D0A5BE /* LPBleNodeStatusPresenter.swift */,
+				669355B920B6C52400D0A5BE /* LPBleNodeStatusViewController.swift */,
+			);
+			path = nodeStatus;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -330,13 +477,15 @@
 				6611A1321CAA57C500476E8B /* Sources */,
 				6611A1331CAA57C500476E8B /* Frameworks */,
 				6611A1341CAA57C500476E8B /* Resources */,
-				6611A1A21CAA7C6900476E8B /* Embed Frameworks */,
+				668D4D692073C8E2003632F8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				6611A1A11CAA7C6900476E8B /* PBXTargetDependency */,
-				664E097A1E49FE0E00C6EA07 /* PBXTargetDependency */,
+				668D4D642073C8D0003632F8 /* PBXTargetDependency */,
+				668D4D682073C8E2003632F8 /* PBXTargetDependency */,
+				668D4D6D2073C8EB003632F8 /* PBXTargetDependency */,
 			);
 			name = STSensNet;
 			productName = STSensNet;
@@ -347,6 +496,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6611A1661CAA57C500476E8B /* Build configuration list for PBXNativeTarget "STSensNetTests" */;
 			buildPhases = (
+				5A3FFE1F6B8C146C84C26EB8 /* [CP] Check Pods Manifest.lock */,
 				6611A14B1CAA57C500476E8B /* Sources */,
 				6611A14C1CAA57C500476E8B /* Frameworks */,
 				6611A14D1CAA57C500476E8B /* Resources */,
@@ -365,6 +515,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6611A1691CAA57C500476E8B /* Build configuration list for PBXNativeTarget "STSensNetUITests" */;
 			buildPhases = (
+				2C594048F8BD430C7AE6EF1B /* [CP] Check Pods Manifest.lock */,
 				6611A1561CAA57C500476E8B /* Sources */,
 				6611A1571CAA57C500476E8B /* Frameworks */,
 				6611A1581CAA57C500476E8B /* Resources */,
@@ -385,12 +536,13 @@
 		6611A12E1CAA57C500476E8B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = STCentralLab;
 				TargetAttributes = {
 					6611A1351CAA57C500476E8B = {
 						CreatedOnToolsVersion = 7.2.1;
 						DevelopmentTeam = 9L4QA9SNQK;
+						LastSwiftMigration = 0930;
 					};
 					6611A14E1CAA57C500476E8B = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -461,13 +613,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				663B9B241DA3D97F0067DAFC /* DemoView.storyboard in Resources */,
-				6611A1461CAA57C500476E8B /* Assets.xcassets in Resources */,
+				668D4D6F2073C9E4003632F8 /* st_images_LanchScreen.xcassets in Resources */,
 				6611A1441CAA57C500476E8B /* Main.storyboard in Resources */,
+				663A664820A196BA00785131 /* BlueSTSDK.txt in Resources */,
+				6625F788207F192900ED080D /* BleStarStoryboard.storyboard in Resources */,
+				663A664A20A196BA00785131 /* MBProgressHUD.txt in Resources */,
+				6625F799207F1BF400ED080D /* 6LPBleStoryboard.storyboard in Resources */,
+				665E457A2136BFC10042250E /* STSensNet-Debug-Info.plist in Resources */,
+				663A664920A196BA00785131 /* BlueSTSDK_Gui.txt in Resources */,
+				665E457B2136BFC10042250E /* STSensNet-Release-Info.plist in Resources */,
+				665026C1209B4E520065BCB9 /* st_images.xcassets in Resources */,
 				6611A1821CAA61BC00476E8B /* text.html in Resources */,
 				6611A1811CAA61BC00476E8B /* press_contact.jpg in Resources */,
-				66FD405A1E9CDD3400711F26 /* st_images_LanchScreen.xcassets in Resources */,
-				66FD405C1E9CDEE100711F26 /* st_images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,22 +644,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2C594048F8BD430C7AE6EF1B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STSensNetUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5A3FFE1F6B8C146C84C26EB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-STSensNetTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		6611A1321CAA57C500476E8B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6611A1411CAA57C500476E8B /* MainViewController.m in Sources */,
-				6632202D1DD0D4C40085EF59 /* STSensNetCommandFeature.m in Sources */,
-				663B9B441DA3EE690067DAFC /* STSensNetGenericRemoteFeature.m in Sources */,
-				663B9B371DA3DD270067DAFC /* GenericRemoteNodeData.m in Sources */,
-				663B9B341DA3DC410067DAFC /* RemoteNodeData.m in Sources */,
-				663B9B2D1DA3DBCE0067DAFC /* EnviromentalRemoteNodeCell.m in Sources */,
-				663B9B401DA3EA6B0067DAFC /* GenericRemoteNodeTableViewController.m in Sources */,
-				6611A13E1CAA57C500476E8B /* AppDelegate.m in Sources */,
-				6611A13B1CAA57C500476E8B /* main.m in Sources */,
-				665E59C61DDAEA9600FAD172 /* GenericRemoteNodeCell.m in Sources */,
-				663B9B311DA3DBD90067DAFC /* EnviromentalRemoteNodeData.m in Sources */,
+				6652CB9F2080819C00CEA296 /* Feature6LoWPANProtocol.swift in Sources */,
+				66065E0820C56D8100EC092C /* LPBleNetworkLedContract.swift in Sources */,
+				6616815E20B56D9500783EAD /* LPBleNetworkStatusViewController.swift in Sources */,
+				66E28AFE20823616001AB55A /* MainViewController.swift in Sources */,
+				661D84B220BD950A00B4C4ED /* GetNodeListResponseParser.swift in Sources */,
+				6625F789207F192900ED080D /* STSensNetCommandFeature.m in Sources */,
+				6652CBB120808C3200CEA296 /* GetNodeSensorResponseParser.swift in Sources */,
+				669355BC20B6C52400D0A5BE /* LPBleNodeStatusViewController.swift in Sources */,
+				6625F787207F192900ED080D /* GenericRemoteNodeTableViewController.m in Sources */,
+				665AC7BE20B8081B00943F96 /* LPBleNetworkTopologyDetailsViewController.swift in Sources */,
+				6652CBA22080819C00CEA296 /* LPBleNetworkAddress.swift in Sources */,
+				6652CBAF208089C500CEA296 /* LPBleSensorNode.swift in Sources */,
+				66D7B71A2080E8E400000EF5 /* NetworkTopology.swift in Sources */,
+				669355BA20B6C52400D0A5BE /* LPBleNodeStatusContract.swift in Sources */,
+				6652CBA12080819C00CEA296 /* LPBleNetworkResponde.swift in Sources */,
+				665AC7BB20B806FE00943F96 /* LPBleNetworkTopologyPresenterImpl.swift in Sources */,
+				6625F785207F192900ED080D /* EnviromentalRemoteNodeCell.m in Sources */,
+				6625F78D207F192900ED080D /* RemoteNodeData.m in Sources */,
+				6625F78C207F192900ED080D /* GenericRemoteNodeData.m in Sources */,
+				665AC7BA20B806FE00943F96 /* LPBleNetworkTopologyContract.swift in Sources */,
+				6616815C20B56D9500783EAD /* LPBleNetworkStatusContract.swift in Sources */,
+				66E28AF020822C92001AB55A /* ChangeActuatorStateResponseParser.swift in Sources */,
+				6625F786207F192900ED080D /* GenericRemoteNodeCell.m in Sources */,
+				6625F78A207F192900ED080D /* STSensNetGenericRemoteFeature.m in Sources */,
+				66EF98E8210F3B4B00584218 /* SixLoWPANBLEGatewayConfiguration.swift in Sources */,
+				66D7B71D208109FE00000EF5 /* GetNetworkTopologyResponseParser.swift in Sources */,
+				66065E0A20C56E8E00EC092C /* LPBleNetworkLedPresenter.swift in Sources */,
+				6652CBA02080819C00CEA296 /* LPBleNetworkRequest.swift in Sources */,
+				660FF34E2099FB7900D16379 /* STSensNetAppDelegate.swift in Sources */,
+				6616815D20B56D9500783EAD /* LPBleNetworkStatusPresenter.swift in Sources */,
+				6611A13B1CAA57C500476E8B /* (null) in Sources */,
+				665AC7BC20B806FE00943F96 /* LPBleNetworkTopologyViewController.swift in Sources */,
+				6625F78B207F192900ED080D /* EnviromentalRemoteNodeData.m in Sources */,
+				669355BB20B6C52400D0A5BE /* LPBleNodeStatusPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,10 +759,20 @@
 			name = BlueSTSDK;
 			targetProxy = 6611A1A01CAA7C6900476E8B /* PBXContainerItemProxy */;
 		};
-		664E097A1E49FE0E00C6EA07 /* PBXTargetDependency */ = {
+		668D4D642073C8D0003632F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = BlueSTSDK_Gui;
-			targetProxy = 664E09791E49FE0E00C6EA07 /* PBXContainerItemProxy */;
+			targetProxy = 668D4D632073C8D0003632F8 /* PBXContainerItemProxy */;
+		};
+		668D4D682073C8E2003632F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueSTSDK_Gui;
+			targetProxy = 668D4D672073C8E2003632F8 /* PBXContainerItemProxy */;
+		};
+		668D4D6D2073C8EB003632F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BlueSTSDK;
+			targetProxy = 668D4D6C2073C8EB003632F8 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -567,14 +796,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -613,14 +850,22 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -640,6 +885,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -648,34 +894,44 @@
 		6611A1641CAA57C500476E8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9L4QA9SNQK;
-				INFOPLIST_FILE = STSensNet/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/STSensNet/STSensNet-Debug-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.st.clab.STSensNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "STSensNet/STSensNet-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		6611A1651CAA57C500476E8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 9L4QA9SNQK;
-				INFOPLIST_FILE = STSensNet/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/STSensNet/STSensNet-Release-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.st.clab.STSensNet;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "STSensNet/STSensNet-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		6611A1671CAA57C500476E8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = STSensNetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -688,6 +944,7 @@
 		6611A1681CAA57C500476E8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = STSensNetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -700,6 +957,7 @@
 		6611A16A1CAA57C500476E8B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = STSensNetUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.st.clab.STSensNetUITests;
@@ -712,6 +970,7 @@
 		6611A16B1CAA57C500476E8B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = STSensNetUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.st.clab.STSensNetUITests;
